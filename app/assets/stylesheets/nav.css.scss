@@ -1,0 +1,58 @@
+
+
+// **** MENU *******
+
+.navbar {
+  z-index: 100;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.navbar-brand {
+	font-weight: 600;
+}
+ 
+button.navbar-toggle {
+	background: #e0e0e0;
+}
+
+.navbar-collapse {
+	text-align: center;
+} 
+
+.navbar-right li a {
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+
+// ********* FOOTER ************
+
+.footer  {
+	background: #262B37;
+	height: 70px;
+	color: #84868D;
+}
+
+.inner-footer {
+	padding-top: 15px;
+}
+
+// scroll top
+
+.scroll-top {
+	border: 1px dotted black;
+	text-align: center;
+   position:fixed;
+   bottom:2%;
+   right:2%;
+   z-index:100;
+   width: 40px;
+   height: 40px;
+   background: #FF675F;}
+
+.glyphicon-chevron-up {
+	padding: 10px 10px;
+	font-size: 18px;
+	color: #fff;
+}
